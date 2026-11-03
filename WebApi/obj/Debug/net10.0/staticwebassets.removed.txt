@@ -1,4 +1,0 @@
-F:\יד\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.html
-F:\יד\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\UpDate.html
-F:\יד\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\UpDate.js
-F:\יד\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.js

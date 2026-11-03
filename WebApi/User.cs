@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Zxcvbn;
 namespace WebApi
 {
     public class User
@@ -13,13 +12,5 @@ namespace WebApi
         [Required]
          public string Password { get; set; }
         public int Id { get; set; }
-    }
-
-    public class LogUser
-    {
-        [Required]
-        public string Email { get; set; }
-        [Required]
-        public string Password { get; set; }
     }
 }
