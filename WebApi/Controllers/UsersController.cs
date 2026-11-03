@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-//fix: Removed "using System.Runtime.Intrinsics.Arm;" - it was added by mistake and is not used
 using System.Text.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,7 +11,6 @@ namespace WebApi.Controllers
 
     public class UsersController : ControllerBase
     {
-        //fix: The path never changes, so it can be readonly
         static readonly string FilePath = "Users.txt";
         // GET: api/<UsersController>
         [HttpGet]
@@ -71,7 +69,7 @@ namespace WebApi.Controllers
                 }
             }
             
-            return NotFound();
+            return NoContent();
         }
 
 
@@ -79,7 +77,7 @@ namespace WebApi.Controllers
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
         //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end
-        public void Put(int id,[FromBody] User userPut)
+        public IActionResult Put(int id,[FromBody] User userPut)
         {
             string textToReplace = string.Empty;
             using (StreamReader reader = System.IO.File.OpenText(FilePath))
@@ -91,19 +89,18 @@ namespace WebApi.Controllers
                     if (user.Id == id)
                     {
                         textToReplace = currentUserInFile;
-                        //fix: Found- break
                         break;
                     }
                 }
             }
             if (textToReplace != string.Empty)
             {
-                //fix: Keep the id, otherwise the updated user is saved without it
                 userPut.Id = id;
                 string text = System.IO.File.ReadAllText(FilePath);
                 text = text.Replace(textToReplace, JsonSerializer.Serialize(userPut));
                 System.IO.File.WriteAllText(FilePath, text);
             }
+            return Ok();
         }
 
         // DELETE api/<UsersController>/5
