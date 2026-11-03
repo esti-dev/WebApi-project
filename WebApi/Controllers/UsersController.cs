@@ -53,7 +53,7 @@ namespace WebApi.Controllers
 
         //The assignment asks a wrong login to return NoContent() (204)
         [HttpPost("login")]
-        public ActionResult<User> Login([FromBody] LogUser loginUser)
+        public ActionResult<User> Login([FromBody] LoginUser loginUser)
         {
             
             using (StreamReader reader = System.IO.File.OpenText(FilePath))
