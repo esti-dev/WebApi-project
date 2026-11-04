@@ -13,7 +13,11 @@ namespace WebApi.Controllers
 
     public class UsersController : ControllerBase
     {
-        UserServices userServices = new UserServices();
+        IUserService userServices;
+        public UsersController(IUserService userService)
+        {
+            this.userServices = userService;
+        }
 
         // GET: api/<UsersController>
         [HttpGet]

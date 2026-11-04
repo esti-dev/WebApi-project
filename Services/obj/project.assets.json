@@ -2,6 +2,19 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "zxcvbn-core/7.0.92": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/zxcvbn-core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxcvbn-core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -28,6 +41,24 @@
     }
   },
   "libraries": {
+    "zxcvbn-core/7.0.92": {
+      "sha512": "3CKGKJe4SnFrks38EuF4iq1DT6IqsyNu/zMQp9GOpaipb7qdZndjjTXQa1/dkNh/OoxD0/aTcIBrRrbD4ALeGQ==",
+      "type": "package",
+      "path": "zxcvbn-core/7.0.92",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net451/zxcvbn-core.dll",
+        "lib/net451/zxcvbn-core.xml",
+        "lib/netstandard1.3/zxcvbn-core.dll",
+        "lib/netstandard1.3/zxcvbn-core.xml",
+        "lib/netstandard2.0/zxcvbn-core.dll",
+        "lib/netstandard2.0/zxcvbn-core.xml",
+        "zxcvbn-core.7.0.92.nupkg.sha512",
+        "zxcvbn-core.nuspec"
+      ]
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -42,27 +73,28 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Entities >= 1.0.0",
-      "Repository >= 1.0.0"
+      "Repository >= 1.0.0",
+      "zxcvbn-core >= 7.0.92"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\8887\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
+      "projectUniqueName": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\obj\\",
+      "projectPath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\8887\\.nuget\\packages\\",
+      "outputPath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\8887\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -71,6 +103,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -78,11 +111,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj"
+            "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj": {
+              "projectPath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj"
             },
-            "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Repository\\Repository.csproj"
+            "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Repository\\Repository.csproj": {
+              "projectPath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Repository\\Repository.csproj"
             }
           }
         }
@@ -97,12 +130,18 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
         "framework": "net10.0",
         "targetAlias": "net10.0",
+        "dependencies": {
+          "zxcvbn-core": {
+            "target": "Package",
+            "version": "[7.0.92, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -119,7 +158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

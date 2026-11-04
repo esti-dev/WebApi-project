@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "s4uCiNU2H5Y=",
+  "dgSpecHash": "6LHlH5Fc9iI=",
   "success": true,
-  "projectFilePath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\8887\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
+  ],
   "logs": []
 }

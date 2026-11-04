@@ -4,3 +4,9 @@ D:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\S
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.AssemblyInfo.cs
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.csproj.CoreCompileInputs.cache
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.sourcelink.json
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.csproj.AssemblyReference.cache
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.AssemblyInfoInputs.cache
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.AssemblyInfo.cs
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.csproj.CoreCompileInputs.cache
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Services\obj\Debug\net10.0\Services.sourcelink.json

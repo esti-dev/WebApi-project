@@ -11,3 +11,15 @@ D:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\r
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.pdb
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\ref\Entities.dll
 D:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.csproj.Up2Date
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\bin\Debug\net10.0\Entities.deps.json
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\bin\Debug\net10.0\Entities.dll
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\bin\Debug\net10.0\Entities.pdb
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.AssemblyInfoInputs.cache
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.AssemblyInfo.cs
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.csproj.CoreCompileInputs.cache
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.sourcelink.json
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.dll
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\refint\Entities.dll
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.pdb
+F:\יד\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\ref\Entities.dll
