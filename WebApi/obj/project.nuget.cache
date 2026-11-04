@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CJQO2qIkvXM=",
+  "dgSpecHash": "6PLgG1pjHi4=",
   "success": true,
-  "projectFilePath": "F:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\יד\\API\\אסתי בוחבוט ואפרת מדן\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\8887\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
   ],
   "logs": []
 }
