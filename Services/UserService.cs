@@ -40,4 +40,4 @@ namespace Services
 
     }
 }
-}
+//fix: removed the extra closing brace, it stopped the file from compiling
