@@ -59,6 +59,7 @@ const signIn =async() => {
   
 }
 
+//JavaScript function names are camelCase: logIn instead of LogIn
 const LogIn = async () => {
 
     try {
@@ -81,6 +82,7 @@ const LogIn = async () => {
         else {
             const data = (await (response.json()));
             sessionStorage.setItem("currentUser", await (JSON.stringify(data)));
+            //Is signlog defined anywhere? It is assigned here without being declared first
             signlog = document.querySelector(".signlog");
             signlog.style.display = "none";
             succses = document.querySelector(".succses");
