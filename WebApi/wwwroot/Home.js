@@ -81,8 +81,10 @@ const LogIn = async () => {
         else {
             const data = (await (response.json()));
             sessionStorage.setItem("currentUser", await (JSON.stringify(data)));
+            //signlog is used here but never defined: where is it declared?
             signlog = document.querySelector(".signlog");
             signlog.style.display = "none";
+            //succses is used here but never defined: where is it declared?
             succses = document.querySelector(".succses");
             succses.textContent = data.firstName + " " + succses.textContent;
             succses.style.display = "block";

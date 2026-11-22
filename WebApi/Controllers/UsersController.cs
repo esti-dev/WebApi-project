@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+//This using isn't used in this file: you can remove it
 using System.Text.Json;
 using Entities;
 using Services;
@@ -13,6 +14,7 @@ namespace WebApi.Controllers
 
     public class UsersController : ControllerBase
     {
+        //The assignment asks the users controller to take IPasswordService and call it to check the password: where would you add it, and what would you pass to it?
         IUserService userServices;
         public UsersController(IUserService userService)
         {
@@ -39,6 +41,7 @@ namespace WebApi.Controllers
         
         // POST api/<UsersController>
         [HttpPost]
+        //The assignment asks POST to return 400 for a weak password (score below 3): where would you check the score before saving?
         public ActionResult<User> Post([FromBody] User user)
         {
             user = userServices.Post(user);
@@ -60,6 +63,7 @@ namespace WebApi.Controllers
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
+        //The assignment asks PUT to return 400 for a weak password (score below 3): where would you check the score before updating?
         public IActionResult Put(int id,[FromBody] User userPut)
         {
            userServices.Put(id,userPut);
