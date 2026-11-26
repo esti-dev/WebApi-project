@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class CategoryRepository : ICategoryRepository
+    public class CategoryRepository : ICategoriesRepository
     {
         storeDBContext storeDBContext;
 

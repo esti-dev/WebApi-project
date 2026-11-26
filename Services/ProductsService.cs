@@ -6,11 +6,11 @@ using Repository;
 
 namespace Services
 {
-    public class ProductService : IProductService
+    public class ProductService : IProductsService
     {
-        IProductRepository productRepository;
+        IProductsRepository productRepository;
 
-        public ProductService(IProductRepository productRepository)
+        public ProductService(IProductsRepository productRepository)
         {
             this.productRepository = productRepository;
         }

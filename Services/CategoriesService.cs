@@ -8,9 +8,9 @@ namespace Services
 {
     public class CategoryService : ICategoryService
     {
-        ICategoryRepository categoryRepository;
+        ICategoriesRepository categoryRepository;
 
-        public CategoryService(ICategoryRepository categoryRepository)
+        public CategoryService(ICategoriesRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }

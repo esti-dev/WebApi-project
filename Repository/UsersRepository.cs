@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : IUsersRepository
     {
         storeDBContext storeDBContext;
 

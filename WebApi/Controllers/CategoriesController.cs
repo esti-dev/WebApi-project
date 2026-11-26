@@ -10,9 +10,9 @@ namespace WebApi.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        ICategoryService categoryService;
+        ICategoriesService categoryService;
 
-        public CategoriesController(ICategoryService categoryService)
+        public CategoriesController(ICategoriesService categoryService)
         {
             this.categoryService = categoryService;
         }

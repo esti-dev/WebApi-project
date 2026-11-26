@@ -10,9 +10,9 @@ namespace WebApi.Controllers
     [ApiController]
     public class PasswordsController : ControllerBase
     {
-        IPasswordService passwordService;
+        IPasswordsService passwordService;
         IConfiguration configuration;
-        public PasswordsController(IPasswordService passwordService, IConfiguration configuration)
+        public PasswordsController(IPasswordsService passwordService, IConfiguration configuration)
         {
             this.passwordService = passwordService;
             this.configuration = configuration;
