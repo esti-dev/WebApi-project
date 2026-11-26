@@ -2,7 +2,7 @@
 
 namespace Repository
 {
-    public interface ICategoryRepository
+    public interface ICategoriesRepository
     {
         Task<IEnumerable<Category>> Get();
     }

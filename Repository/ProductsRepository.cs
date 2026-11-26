@@ -6,10 +6,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class ProductRepository : IProductRepository
+    public class ProductsRepository : IProductsRepository
     {
         storeDBContext dbContext;
-        public ProductRepository(storeDBContext storeDBContext)
+        public ProductsRepository(storeDBContext storeDBContext)
         {
                 this.dbContext = storeDBContext;
         }

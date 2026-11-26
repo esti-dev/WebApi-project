@@ -2,7 +2,7 @@
 
 namespace Repository
 {
-    public interface IOrderRepository
+    public interface IOrdersRepository
     {
         Task<Order> GetById(int id);
         Task<Order> Post(Order order);

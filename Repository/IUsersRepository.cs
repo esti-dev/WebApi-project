@@ -2,7 +2,7 @@
 
 namespace Repository
 {
-    public interface IUserRepository
+    public interface IUsersRepository
     {
         Task<IEnumerable<User>> Get();
         Task<User> GetById(int id);

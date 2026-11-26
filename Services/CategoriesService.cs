@@ -6,11 +6,11 @@ using Repository;
 
 namespace Services
 {
-    public class CategoryService : ICategoryService
+    public class CategoriesService : ICategoriesService
     {
         ICategoriesRepository categoryRepository;
 
-        public CategoryService(ICategoriesRepository categoryRepository)
+        public CategoriesService(ICategoriesRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }

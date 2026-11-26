@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class UserRepository : IUsersRepository
+    public class UsersRepository : IUsersRepository
     {
         storeDBContext storeDBContext;
 
-        public UserRepository(storeDBContext storeDBContext)
+        public UsersRepository(storeDBContext storeDBContext)
         {
             this.storeDBContext = storeDBContext;
         }

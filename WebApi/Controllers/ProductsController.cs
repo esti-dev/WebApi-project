@@ -12,9 +12,9 @@ namespace WebApi.Controllers
     {
         // GET: api/<ProductsController>
 
-        IProductService productService;
+        IProductsService productService;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductsService productService)
         {
             this.productService = productService;
         }
@@ -29,10 +29,10 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> Get(int id)
         {
-
-            if (await productService.GetById(id) != null)
+            Product product = await productService.GetById(id);
+            if (product != null)
             {
-                return await productService.GetById(id);
+                return product;
             }
             return NoContent();
         }

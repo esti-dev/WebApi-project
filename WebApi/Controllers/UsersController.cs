@@ -13,16 +13,16 @@ namespace WebApi.Controllers
     public class UsersController : ControllerBase
     {
         PasswordsController passwordsController;
-        private IUserService userService;
+        private IUsersService userService;
         IConfiguration configuration;
         ILogger<UsersController> logger;
-        static IPasswordService passwordService;
-        public UsersController(IUserService userService, IConfiguration configuration, ILogger<UsersController> logger)
+        static IPasswordsService passwordService;
+        public UsersController(IUsersService userService, IConfiguration configuration, ILogger<UsersController> logger)
         {
             this.userService = userService;
             this.configuration = configuration;
             this.logger = logger;
-            passwordService = new PasswordService();
+            passwordService = new PasswordsService();
             this.passwordsController = new PasswordsController(passwordService, configuration);
 
         }
@@ -38,9 +38,10 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> Get(int id)
         {
-            if(await userService.GetById(id) != null)
+            User user = await userService.GetById(id);
+            if (user != null)
             {
-                return await userService.GetById(id);
+                return user;
             }
             return NoContent();
             
@@ -50,7 +51,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> Post([FromBody] User user)
         {
-            int passwordStrength = (passwordsController.Post(user.Password));
+            int passwordStrength = (passwordsController.Post(user.Password).Value);
 
             if (passwordStrength < int.Parse(configuration["passwordStrength"]))
             {
@@ -87,7 +88,7 @@ namespace WebApi.Controllers
         public async Task<IActionResult> Put(int id, [FromBody] User userToUpdate)
         {
 
-            int passwordStrength = (passwordsController.Post(userToUpdate.Password));
+            int passwordStrength = (passwordsController.Post(userToUpdate.Password).Value);
 
             if (passwordStrength < int.Parse(configuration["passwordStrength"]))
             {

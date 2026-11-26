@@ -5,7 +5,7 @@ using Zxcvbn;
 
 namespace Services
 {
-    public class PasswordService : IPasswordsService
+    public class PasswordsService : IPasswordsService
     {
         public int Post(string password)
         {

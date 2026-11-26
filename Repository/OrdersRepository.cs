@@ -5,10 +5,10 @@ using Entities;
 
 namespace Repository
 {
-    public class OrderRepository : IOrderRepository
+    public class OrdersRepository : IOrdersRepository
     {
         storeDBContext context;
-        public OrderRepository(storeDBContext context)
+        public OrdersRepository(storeDBContext context)
         {
             this.context = context;
         }

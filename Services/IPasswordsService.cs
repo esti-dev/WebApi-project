@@ -2,7 +2,7 @@
 
 namespace Services
 {
-    public interface IPasswordService
+    public interface IPasswordsService
     {
         int Post(string password);
     }

@@ -3,11 +3,11 @@ using Repository;
 
 namespace Services
 {
-    public class UserService : IUsersService
+    public class UsersService : IUsersService
     {
         private IUsersRepository userRepository;
 
-        public UserService(IUsersRepository userRepository)
+        public UsersService(IUsersRepository userRepository)
         {
             this.userRepository = userRepository;
         }

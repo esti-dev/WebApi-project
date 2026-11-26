@@ -30,3 +30,19 @@ F:\API\אסתי בוחבוט ואפרת מדן\Repository\obj\Debug\net10.0\Repo
 F:\API\אסתי בוחבוט ואפרת מדן\Repository\obj\Debug\net10.0\refint\Repository.dll
 F:\API\אסתי בוחבוט ואפרת מדן\Repository\obj\Debug\net10.0\Repository.pdb
 F:\API\אסתי בוחבוט ואפרת מדן\Repository\obj\Debug\net10.0\ref\Repository.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\bin\Debug\net10.0\Repository.deps.json
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\bin\Debug\net10.0\Repository.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\bin\Debug\net10.0\Repository.pdb
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\bin\Debug\net10.0\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\bin\Debug\net10.0\Entities.pdb
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.AssemblyInfo.cs
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.sourcelink.json
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.csproj.Up2Date
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\refint\Repository.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\Repository.pdb
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Repository\obj\Debug\net10.0\ref\Repository.dll

@@ -1,7 +1,7 @@
-E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.html
-E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.js
-E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Update.html
-E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Update.js
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\WebApi\wwwroot\Home.html
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\WebApi\wwwroot\Home.js
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\WebApi\wwwroot\Update.html
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\WebApi\wwwroot\Update.js
 wwwroot\Home.html
 wwwroot\Home.js
 wwwroot\Update.html

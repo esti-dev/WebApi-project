@@ -11,11 +11,11 @@ namespace WebApi.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        IOrderService orderService;
-        IProductService productsService;
+        IOrdersService orderService;
+        IProductsService productsService;
 
 
-        public OrdersController(IOrderService orderService, IProductService productsService)
+        public OrdersController(IOrdersService orderService, IProductsService productsService)
         {
             this.orderService = orderService;
             this.productsService = productsService;
@@ -31,9 +31,10 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> Get(int id)
         {
-            if (await orderService.GetById(id) != null)
+            Order order = await orderService.GetById(id);
+            if (order != null)
             {
-                return await orderService.GetById(id);
+                return order;
             }
             return NoContent();
         }

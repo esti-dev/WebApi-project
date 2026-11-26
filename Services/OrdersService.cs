@@ -6,10 +6,10 @@ using Repository;
 
 namespace Services
 {
-    public class OrderService : IOrderService
+    public class OrdersService : IOrdersService
     {
-        IOrderRepository orderRepository;
-        public OrderService(IOrderRepository orderRepository)
+        IOrdersRepository orderRepository;
+        public OrdersService(IOrdersRepository orderRepository)
         {
             this.orderRepository = orderRepository;
         }
