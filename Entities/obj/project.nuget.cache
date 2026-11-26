@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z8dKY7TjwZ8=",
+  "dgSpecHash": "xcTEALIS4V8=",
   "success": true,
-  "projectFilePath": "E:\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

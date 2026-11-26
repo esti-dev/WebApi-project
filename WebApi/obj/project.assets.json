@@ -3844,11 +3844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\API\\אסתי בוחבוט ואפרת מדן\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "E:\\API\\אסתי בוחבוט ואפרת מדן\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\API\\אסתי בוחבוט ואפרת מדן\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3863,7 +3863,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3871,11 +3870,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "E:\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj": {
-              "projectPath": "E:\\API\\אסתי בוחבוט ואפרת מדן\\Entities\\Entities.csproj"
+            "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\Entities\\Entities.csproj"
             },
-            "E:\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj": {
-              "projectPath": "E:\\API\\אסתי בוחבוט ואפרת מדן\\Services\\Services.csproj"
+            "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\API\\firstProject\\web-api-first-project\\Services\\Services.csproj"
             }
           }
         }

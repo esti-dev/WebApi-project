@@ -1,0 +1,4 @@
+E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.html
+E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Home.js
+E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Update.html
+E:\API\אסתי בוחבוט ואפרת מדן\WebApi\wwwroot\Update.js
