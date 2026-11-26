@@ -38,7 +38,7 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> Get(int id)
         {
-            if(userService.GetById(id) != null)
+            if(await userService.GetById(id) != null)
             {
                 return await userService.GetById(id);
             }

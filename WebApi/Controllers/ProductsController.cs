@@ -30,7 +30,7 @@ namespace WebApi.Controllers
         public async Task<ActionResult<Product>> Get(int id)
         {
 
-            if (productService.GetById(id) != null)
+            if (await productService.GetById(id) != null)
             {
                 return await productService.GetById(id);
             }

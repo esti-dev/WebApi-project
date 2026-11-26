@@ -31,7 +31,7 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> Get(int id)
         {
-            if (orderService.GetById(id) != null)
+            if (await orderService.GetById(id) != null)
             {
                 return await orderService.GetById(id);
             }

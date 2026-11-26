@@ -25,3 +25,17 @@ F:\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entiti
 F:\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\refint\Entities.dll
 F:\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\Entities.pdb
 F:\API\אסתי בוחבוט ואפרת מדן\Entities\obj\Debug\net10.0\ref\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\bin\Debug\net10.0\Entities.deps.json
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\bin\Debug\net10.0\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\bin\Debug\net10.0\Entities.pdb
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.AssemblyInfo.cs
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.sourcelink.json
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\refint\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.pdb
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\ref\Entities.dll
+C:\Users\User\Desktop\API\firstProject\web-api-first-project\Entities\obj\Debug\net10.0\Entities.csproj.Up2Date
